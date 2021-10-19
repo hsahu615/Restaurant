@@ -80,7 +80,7 @@ export function contents(){
 
   let cT = document.createElement('div');
   cT.setAttribute('class', 'cT');
-  let city = ['Ahmedabad', 'Bangalore', 'Chennai', 'Goa', 'Jaipur', 'Noida'];
+  let city = ['Ahmedabad', 'Bangalore', 'Chennai', 'Delhi', 'Goa', 'Jaipur', 'Noida'];
   for(let i = 0;i<city.length;i++){
     let p = document.createElement('p');
     p.innerHTML = `${city[i]}`;
